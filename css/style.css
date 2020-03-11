@@ -36,7 +36,7 @@ ol, ul {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: rgb(5, 185, 185);
+  color: rgb(255, 221, 158);
  
 	background-color: transparent;
 }
@@ -49,7 +49,7 @@ ol, ul {
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: rgb(13, 172, 172);
+  color: rgb(255, 221, 158);
 }
 
 .navbar-fixed-top {
