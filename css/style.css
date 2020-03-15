@@ -150,6 +150,9 @@ p{color: aliceblue;}
 .copyright{
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
+  background: rgba(0, 0, 0, 0.795);
+  margin-right: 20px;
 }
 .img-responsive{
   padding-bottom: 20px;
