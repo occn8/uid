@@ -102,7 +102,7 @@ ol, ul {
   position: relative;
 }
 .btn-submit:hover {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.658);
 }
 h3.txt-tl {
   font-size: 24px;
@@ -110,6 +110,9 @@ h3.txt-tl {
 }
 a, a:hover {
   color: white;
+}
+.btn-submit a:hover {
+  color: black;
 }
 
 h1, h2, h3, h4{
@@ -176,4 +179,139 @@ p{color: aliceblue;}
 }
 .sec-para{
   color: black;
+}
+.pull-left{
+  padding-top: 5px;
+}
+/*typriyting ..*/
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(35, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+/*bottom links social*/
+.btn0{ 
+  width:40px; 
+  height:30px; 
+  background:#f1f1f141; 
+  margin:10px; 
+  border-radius:30%; 
+  box-shadow: 0 5px 10px -5px #7e7c7c70;
+  color:orange; 
+  overflow:hidden; 
+  position:relative;}
+  
+
+.btn0 i{
+  /* line-height: 15px; */
+  /* padding:5px; */
+  font-size:15px; 
+  transition: 0.2s linear;}
+
+.btn0:hover i{transform: scale(1.4);color:black;}
+.btn0:visited i{color:white;}
+
+.btn0::before{
+  content:""; 
+  position:absolute; 
+  width:120%;height:150%; 
+  background:orange;
+  transform:rotate(45deg);
+  left:-120%;
+  top:90%;}
+
+.btn0:hover::before{animation: aaa 0.7s 1;top:-15%;left:-10%;}
+
+@keyframes aaa{
+0%{left:-110%;top:90%;}
+50%{left:10%;top:-30%;}
+100%{top:-10%;left:-10%;}
+}
+.main {
+  position: relative;
+  width: 100%;
+  height: 10vh;}
+ 
+.rtext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;}
+ 
+.txt {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  /* font-family: 'Fredoka One', cursive; */
+  font-size: 20px;
+  text-align: center;
+  color: transparent;
+  transition: all .5s 0s ease-out;}
+ 
+.rtext:hover .txt {
+  color: white;
+  transition: all .8s .3s ease-in;
+	margin-left: -50px;}
+ 
+.txt::before,
+.txt::after {
+  content: attr(data-txt);
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(0,54px,40px,0);
+  color: #fff;
+  transition: all .3s .3s;}
+ 
+.txt::after {
+  clip: rect(0,200px,40px,54px);}
+ 
+.rtext:hover .txt::before {
+  left: -10px;
+  opacity: 0;}
+ 
+.rtext:hover .txt::after {
+  left: 10px;
+  opacity: 0;}
+ 
+.rtext::before {
+  content: '';position: absolute;top: -100px;left: 0;right: 0;width: 1px;
+height: 80px; margin: auto;background: #fff;visibility: hidden;opacity: 0;}
+ 
+.rtext:hover::before {
+  -webkit-animation: sword .5s;
+          animation: sword .5s;}
+ 
+@keyframes sword {
+  0% {top: -100px; visibility: hidden; opacity: 0;}
+  20% {visibility: visible; opacity: 1;}
+  100% {top: 100px; visibility: hidden; opacity: 0;}
+}
+ 
+@-webkit-keyframes sword {
+  0% {top: -100px; visibility: hidden; opacity: 0;}
+  20% {visibility: visible; opacity: 1;}
+  100% {top: 100px; visibility: hidden; opacity: 0;}
 }
