@@ -1,12 +1,11 @@
 
 # __UserInterfaceDesign__
-___
+
 ## Pearl
 
 ![logo][./favicon.ico]
-***
+
 dream `explore` discover
----
 
 ## capabilities
 
@@ -16,7 +15,6 @@ dream `explore` discover
 ## About
 
 > Based off the pearl application.
-
 > This line is part of the same quote.
-break.
+
 > services that make trips and travels easier for individuals, families, freinds and even strangers
